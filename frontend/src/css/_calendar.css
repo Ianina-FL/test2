@@ -1,0 +1,62 @@
+.rbc-event {
+  @apply bg-pastelEmeraldTheme-buttonColor  !important;
+}
+
+.rbc-show-more {
+  @apply text-primaryText  dark:text-white bg-transparent !important;
+}
+
+.rbc-btn-group button {
+  @apply text-primaryText border-gray-400 dark:text-white !important;
+}
+
+.rbc-btn-group button:hover {
+  @apply bg-pastelEmeraldTheme-buttonColor  text-white dark:bg-dark-700 !important;
+}
+
+.rbc-btn-group button.rbc-active {
+  @apply bg-pastelEmeraldTheme-buttonColor  text-white dark:bg-blue-600 !important;
+}
+
+.rbc-btn-group button:focus {
+  @apply bg-pastelEmeraldTheme-buttonColor dark:bg-blue-600 !important;
+}
+
+.rbc-day-bg.rbc-off-range-bg {
+  @apply bg-pastelEmeraldTheme-mainBG dark:bg-dark-800 !important;
+}
+.rbc-current-time-indicator {
+  @apply h-1 !important;
+}
+.rbc-today {
+  @apply dark:bg-dark-600/40 !important;
+}
+
+.rbc-day-bg.rbc-selected-cell {
+  @apply dark:bg-dark-500 !important;
+}
+
+.rbc-day-bg,
+.rbc-timeslot-group,
+.rbc-time-header,
+.rbc-event,
+.rbc-btn-group,
+.rbc-month-view,
+.rbc-month-view .rbc-header,
+.rbc-month-row,
+.rbc-date-cell {
+  @apply border-gray-400 !important;
+}
+
+.rbc-timeslot-group {
+  @apply border-gray-400 !important;
+}
+
+.rbc-time-header,
+.rbc-month-row {
+  @apply border-gray-400 !important;
+}
+
+.rbc-date-cell {
+  @apply border-gray-400 !important;
+}
